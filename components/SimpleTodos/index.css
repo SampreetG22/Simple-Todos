@@ -1,0 +1,25 @@
+.mainContainer {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todoCardContainer {
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+.mainHead {
+  color: #ff8542;
+  font-weight: bold;
+  font-size: 35px;
+}

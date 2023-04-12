@@ -1,0 +1,28 @@
+.indTodoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: 'Roboto';
+  width: 70vw;
+}
+.todoTitlePara {
+  color: black;
+  font-size: 15px;
+  font-weight: 430;
+}
+.indListItem {
+  list-style-type: none;
+}
+.deleteBtn {
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 15%;
+  height: fit-content;
+  font-size: 10px;
+  color: #ff0b37;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 35px;
+}
